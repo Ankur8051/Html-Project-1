@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> Registration From </TITLE>
+<FIELDSET>
+<LEGEND> RUnning train status  </LEGEND>
+Choose Source city:
+<BR/> <BR/>
+<SELECT ID="LOC" size="1">
+      <OPTION VALUE="DEL"> New Delhi</OPTION>
+      <OPTION VALUE="AGR">Agra</OPTION>
+      <OPTION VALUE="TPTY"> Tirupathi</OPTION>
+      <OPTION VALUE="TPTY"> DHoolpet</OPTION>
+       <OPTION VALUE="TPTY"> Amaravathi</OPTION>
+        <OPTION VALUE="TPTY"> Chennai</OPTION>
+      <OPTION VALUE="TPTY"> Banglore</OPTION>
+      <OPTION VALUE="TPTY">Coimbattore</OPTION>
+      <OPTION VALUE="TPTY"> Ooty</OPTION>
+      <OPTION VALUE="TPTY"> KulluManali</OPTION>
+       <OPTION VALUE="TPTY"> Rameshwaram</OPTION>
+       <OPTION VALUE="TPTY">Goa</OPTION>
+       <OPTION VALUE="TPTY">Panaji</OPTION>
+        <OPTION VALUE="TPTY"> MUmbai</OPTION>
+</select>
+</FIELDSET>
+<BR>
+<INPUT TYPE="SUBMIT" id="b1" value="Check status of train"/>
+<br/>  
+</HEAD>

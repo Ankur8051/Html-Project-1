@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> Registration From </TITLE>
+<script>
+function myfunc(){
+window.alert("OTP has been sent and verified");
+window.alert("Password has been reset successfully");
+}
+</script>
+<FIELDSET>
+<LEGEND> REGISTER ONLINE </LEGEND>
+ <FORM id="F1" METHOD="GET" ACTION="Index.php">
+               username:<br/>
+<INPUT TYPE="text" id="T1" value=""/> <br/>
+               Mobile Number:<br/>
+<INPUT TYPE="text" id="T2" name="T2" value=""/> <br/>
+      Enter password:<br/>
+<INPUT TYPE="text" id="T3" name="T2" value=""/> <br/>
+      Comfirm password:<br/>
+<INPUT TYPE="text" id="T3" name="T2" value=""/> <br/>
+</FIELDSET>
+<INPUT TYPE="SUBMIT" id="b1" value="Reset Password" onclick="javascript:myfunc();"/>
+<br/>  
+</FIELDSET>
+</HEAD>

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> Registration From </TITLE>
+<style>
+body{
+background-color:orange;
+}
+p{
+background-color:orange;
+color:red
+font:200px;
+}
+</style>
+<P> In order to use the booking and cancellation facilities you need to log into your account first </P>
+<FIELDSET>
+<LEGEND> Log In </LEGEND>
+ <FORM id="F1" METHOD="GET" ACTION="Index.php">
+               Username:<br/>
+<INPUT TYPE="text" id="T1" value=""/> <br/>
+               Password:<br/>
+<INPUT TYPE="text" id="T2" name="T2" value=""/> <br/>
+               Email ID:<br/>
+<BR>
+<a href="new.html"target="_blank">Sign in </a>
+<br/> 
+<BR>
+<a href="forgot.html"target="_blank">Forgot Password </a>
+<br/> 
+<BR>
+<a href="signup.html"target="_blank">Create new account</a>
+<br/> 
+</HEAD>

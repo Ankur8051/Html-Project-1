@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> Cancellation Form </TITLE>
+<script>
+function myfunc(){
+window.alert("Cancellation was successfull");
+window.alert("Ammount will be credited in your bank account within next 2 working days");
+window.alert("Have a great day");
+
+
+return
+}
+</script>
+
+<FIELDSET>
+<LEGEND> Cancellation </LEGEND>
+   <FORM ID="F2" METHOD="GET" ACTION="Index.php">
+            Name:<br/>
+<INPUT TYPE="text" id="T80" name="T80" value=""/> <br/>
+            Mobile Number:<br/>
+<INPUT TYPE="text" id="T91" name="T91" value=""/> <br/>
+            Train number:<br/>
+<INPUT TYPE="text" id="T111" name="T111" value=""/> <br/>
+             Train name:<br/>
+<INPUT TYPE="text" id="T1111" name="T1111" value=""/> <br/>
+ Choose reason:
+<BR/> <BR/>
+<SELECT ID="LOC" size="1">
+      <OPTION VALUE="TWC"> Trip was cancelled</OPTION>
+      <OPTION VALUE="LM">Improper maintaainance</OPTION>
+      <OPTION VALUE="PER"> Personal</OPTION>            
+</SELECT>
+<INPUT TYPE="SUBMIT" id="b1" value="Cancel my ticket" onclick="javascript:myfunc();"/>
+<br/>  
+</FIELDSET>
+</HEAD>

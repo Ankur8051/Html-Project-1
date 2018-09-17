@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> Registration From </TITLE>
+<script>
+function myfunc(){
+window.alert("OTP has been send and verified");
+window.alert("Payment received and note your token id as receipt id");
+window.alert("Your receipt id is:123ASD5,Have a nice and safe journey");
+
+return
+}
+</script>
+
+<FIELDSET>
+<LEGEND> Payment Gateway </LEGEND>
+   <FORM ID="F2" METHOD="GET" ACTION="Index.php">
+            Name on card:<br/>
+<INPUT TYPE="text" id="T80" name="T80" value=""/> <br/>
+            Email ID:<br/>
+<INPUT TYPE="text" id="T91" name="T91" value=""/> <br/>
+            Mobile Number:<br/>
+<INPUT TYPE="text" id="T111" name="T111" value=""/> <br/>
+ Choose Categery:
+<BR/> <BR/>
+<SELECT ID="LOC" size="1">
+      <OPTION VALUE="MS"> Meastro</OPTION>
+      <OPTION VALUE="VS">Visa</OPTION>
+      <OPTION VALUE="MC"> Mastercard</OPTION>            
+</SELECT>
+Crd number:<br/>
+<INPUT TYPE="text" id="T1111" name="T1111" value=""/> <br/>
+<br>
+<INPUT TYPE="SUBMIT" id="b1" value="Make payment" onclick="javascript:myfunc();"/>
+<br/>  
+</FIELDSET>
+</HEAD>

@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<TITLE>Frames</TITLE>
+<META type="Author" content="xyz"/>
+<META type="keyword" content="HTML,CSS,LECTURE1"/>
+<STYLE>
+p{
+background-color:white;
+color:black;
+FONT-SIZE:18px;  </ COMMENTS />
+}
+h1{
+background-color:white;
+coolor:white;
+}
+</style>
+</head>
+<frameset rows="30%,80%">
+<frame SRC="srikar23.HTML">
+<frame SRC="frame2.html">
+
+</frameset>
+</HTML>

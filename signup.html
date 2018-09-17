@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> Registration From </TITLE>
+<script>
+function myfunc(){
+window.alert("Credentials has been verified");
+window.alert("Congratulations account has been created");
+}
+</script>
+<FIELDSET>
+<LEGEND> REGISTER ONLINE </LEGEND>
+ <FORM id="F1" METHOD="GET" ACTION="Index.php">
+               Name:<br/>
+<INPUT TYPE="text" id="T1" value=""/> <br/>
+               Password:<br/>
+<INPUT TYPE="text" id="T2"  value=""/> <br/>
+               Email ID:<br/>
+<INPUT TYPE="text" id="T3"  value=""/> <br/>
+               Mobile Number:<br/>
+<INPUT TYPE="text" id="T4"  value="" <br/>
+</FIELDSET>
+<FIELDSET>
+<LEGEND> ADDRESS DETAILS </LEGEND>
+   <FORM ID="F2" METHOD="GET" ACTION="Index.php">
+            street number:<br/>
+<INPUT TYPE="text" id="T8" name="T8" value=""/> <br/>
+            city:<br/>
+<INPUT TYPE="text" id="T9" name="T9" value=""/> <br/>
+            pin code:<br/>
+<INPUT TYPE="text" id="T11" name="T11" value=""/> <br/>
+ Choose your categeory:
+<BR/> <BR/>
+<SELECT ID="LOC" size="1">
+      <OPTION VALUE="SC">Senior Citizen</OPTION>
+      <OPTION VALUE="ST">Student</OPTION>
+      <OPTION VALUE="RE">Railway Employee</OPTION>   
+</FIELDSET>          
+</SELECT>
+<br>
+<INPUT TYPE="SUBMIT" id="b1" value="Create Account" onclick="javascript:myfunc();"/>
+<br/>  
+</FIELDSET>
+</HEAD>

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<HEAD>
+<TITLE> Css Demo </title>
+<style>
+body{
+background-color:orange;
+}
+p{
+background-color:orange;
+color:black;
+}
+</style>
+<p> Online rail reservation was introduced by Honourable Prime Minister MR.Modi.The main scheme of this site is to provide
+the details of each and every train that is available between stations and to provide the ability to book and cancel the
+rail tickets from home 
+</P>
+<P> Any misuse of this site is strictly prohitbited and may lead to imprisonmentm </P>
+</head>
+

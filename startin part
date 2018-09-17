@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<HEAD>
+<TITLE> Css Demo </title>
+<style>
+body{
+background-color:Pink;
+}
+p{
+background-color:red;
+color:black;
+}
+</style>

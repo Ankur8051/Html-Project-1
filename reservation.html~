@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE> Registration From </TITLE>
+<script>
+function myfunc(){
+window.alert("Your token number is:144356");
+window.alert("Use this for the online payment");
+return
+}
+</script>
+<FIELDSET>
+<LEGEND> Online Reservation</LEGEND>
+ <FORM id="F1" METHOD="GET" ACTION="Index.php">
+               Name:<br/>
+<INPUT TYPE="text" id="T1" value=""/> <br/>
+               Occupation:<br/>
+<INPUT TYPE="text" id="T2" name="T2" value=""/> <br/>
+               Email ID:<br/>
+<INPUT TYPE="text" id="T3" name="T3" value=""/> <br/>
+               Gender:<br/>
+<INPUT TYPE="text" id="T5" name="T5" value=""/> <br/>
+               Age:<br/>
+<INPUT TYPE="text" id="T6" name="T6" value=""/> <br/>
+                Number of passengers:<br/>
+<INPUT TYPE="text" id="T7" name="T7" value=""/> <br/>
+              Gender:<br/>
+<INPUT TYPE="text" id="T8" name="T8" value=""/> <br/>
+</FIELDSET>
+<FIELDSET>
+<LEGEND> ADDRESS DETAILS </LEGEND>
+   <FORM ID="F2" METHOD="GET" ACTION="Index.php">
+            street number:<br/>
+<INPUT TYPE="text" id="T80" name="T80" value=""/> <br/>
+            city:<br/>
+<INPUT TYPE="text" id="T91" name="T91" value=""/> <br/>
+            pin code:<br/>
+<INPUT TYPE="text" id="T111" name="T111" value=""/> <br/>
+ Choose Categery:
+<BR/> <BR/>
+<SELECT ID="LOC" size="1">
+      <OPTION VALUE="SC"> Senior Citizen/OPTION>
+      <OPTION VALUE="ST">Student</OPTION>
+      <OPTION VALUE="RE"> Railway Employee</OPTION>            
+</SELECT>
+<br>
+<INPUT TYPE="SUBMIT" id="b1" value="LOGIN" onclick="javascript:myfunc();"/>
+<br/>  
+</FIELDSET>
+</HEAD>
